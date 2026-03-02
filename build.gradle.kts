@@ -16,6 +16,7 @@ java {
 
 repositories {
     mavenCentral()
+    maven("https://jitpack.io")
 }
 
 dependencies {
@@ -32,7 +33,7 @@ publishing {
             from(components["java"])
             groupId = "com.github.daria-smirnovaa"
             artifactId = "common"
-            version = "v1.0.0"
+            version = "1.0.0"
         }
     }
 }
