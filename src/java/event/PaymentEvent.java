@@ -1,4 +1,4 @@
-package java.event;
+package event;
 
 import jakarta.validation.constraints.NotNull;
 import lombok.Builder;
